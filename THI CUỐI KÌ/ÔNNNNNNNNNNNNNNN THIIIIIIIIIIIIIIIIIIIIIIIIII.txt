@@ -1,0 +1,4 @@
+TỰ LUẬN
+1. So sánh 3 phương thức wep,wpa,wpa2 (bảng so sánh)
+2. Điểm yếu của giao thức wep (weak point of wep)
+3. Trình bày các bước crack wep

@@ -1,0 +1,89 @@
++	SECURITY PROBLEMS
+1.Insecure web interface
+2.Insufficient Authentication / Authorization
+3.Insecure network Service
+4.Lack of transport Encryption / Integrity Verification
+5.Privacy Concerns
+6.Insecure cloud interface
+7.Insecure mobile interface
+8.Insufficient Securtiy Configurability
+9.Insecure Software / Firmware
+10.Poor physical security
+
+
+CEH v10,14
+
+	IoT Attack Surface Areas
+1.Device memory
+- iot có 3 tính chất : rẻ , mobility,nhỏ
+=>Khả năng tính toán thấp 
+=>Tấn công vào t bị iot dễ 
+=>Không thể đưa cơ chế encryption (không có khả năng tính toán)
+=>Không thể tạo ra bộ nhớ vs 1,2mb (vd key 512 bit) 
+
+2.Ecosystem Access Control
+-sharing => phân quyền => update quyền
+-unauthorize access vào các thiết bị iot
+
+
+3.Device physical interfaces
+-Tấn công vật lý thông qua các thiết bị 
+-Large deploit (các thiết bị ngoài trời) => dễ bị tấn công
+
+
+		IOT THREADS
+-thiết bị nhỏ => momory ít => không tạo key dài được
+
+1.DDos Attack
+- botnet dựa vào iot (hầu hết)
+-Khó tấn công server trên cloud
+
+
+
+2.Attack on HVAC systems (Exploit HVAC )
+-hệ thống điều khiển trung tâm => điều khiển đc các thiết bị mà nó quản lí
+có : database,web server , web database
+steal locking credentials
+-Khai thác lỗ hổng liên quan dến webserver (như back end) : nhận dữ liệu sensor gửi về
+=> tấn công liên quan đến database ,.. => lấy đc quyền vào HVAC
+
+
+
+
+3.Rolling Code Attack
+-chạy bằng execution code => đảo lộn file thực thi
+-bản chất là
+-lấy 1 cái code và sử dụng code đó để chạy tác vụ (vd unlock car=> có khả năng sử dụng t bị A mở xe ra , lấy code đó chạy
+trên t bị b để có thể mở khóa cái xe đó)
+-Fake devices dùng code đó cho xe mình và gửi lên server thì server sẽ mở khóa real device vì server ko nhận ra cái nào là real
+-
+
+4.BlueBorne Attack
+-
+
+5.Jamming Attack
+-Tạo ra 1 sóng tương tự để phá thông tin đc truyền  thông qua wireless
+=>Làm cho thiết bị attacked làm cho không gửi đc dữ liệu
+
+9.Exploit kits
+
+
+
+				HACKING IOT DEVICES : GENERAL SCENARIO
+ 				CASE STUDY : Dyn Attack
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

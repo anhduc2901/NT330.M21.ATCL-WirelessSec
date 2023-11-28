@@ -1,0 +1,26 @@
+				Man in the middle attack
++DNS oceaning
++
+
+				ROUGE ACESS POINTS
++JAMMING (user vs network acess)
++
+
+				Switch attack
++ARP table
++mislead 
++
+				MAC ATTACK
++
+
+				ROUTING ATTACK
++OSPF
++thay đổi thuật toán định tuyến để thằng attacker nằm ở gần nhất
+để mọi thứ qua attacker trc khi đến các thằng khác
+**ROUTOSPY
+
+
+				WIFIPHISER-rouge acess point framework
++man in the midle attack
+
+

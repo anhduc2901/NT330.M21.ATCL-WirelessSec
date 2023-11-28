@@ -1,0 +1,16 @@
++ 3 tuần cuối : 
+- thuyết trình proj1 và 1 phần proj2
+
+
++	WEP
+-RC4 KEY = SECRETKEY XOR IV
+-use RC4 to encrypt all data through wireless
+-use the combination of  authentication and encryption
+-wpa/wpa2 : use both encrypt and authenticate
+-
+
+
+
++ CRACK WPA/WPA2 cần 3 way handshake
+
++ Crack website thì k cần

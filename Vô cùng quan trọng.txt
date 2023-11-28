@@ -1,0 +1,12 @@
+			CRACKING WEBSITE
++ attack (website)
++ report 5-8 trang
++ chứng minh đc tấn công vs quy trình đúng
++Nhìn vào report vẫn attack đc wireless network
+
++DL : tuần thứ 14 - thuyết trình + dl attack
+(Hỏi các lệnh , ...)
+
+try to crack WPA2 (bắt đc quá trình handshake)
+-Deauthenticate 
+-wifiphisher 

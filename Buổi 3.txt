@@ -1,0 +1,66 @@
+		+WLAN security Goals
+
+-Có bốn mục tiêu mà người ta nên hướng tới khi cài đặt mạng không dây
+-Kiểm soát truy cập - Chỉ những người dùng được ủy quyền mới nên
+được phép sử dụng mạng không dây
+-Tính toàn vẹn của dữ liệu - Lưu lượng mạng phải
+an toàn chống giả mạo
+-Bảo mật - Người dùng cần được bảo vệ
+ chống lại bên thứ ba nghe
+ cuộc hội thoại
+-Tính khả dụng của dịch vụ - Dịch vụ phải
+được bảo mật trước các cuộc tấn công từ chối dịch vụ (DoS)
+
+
+		BASIC WLAN SECURITY MECHANISMS ( CÁC CƠ CHẾ BẢO MẬT CƠ BẢN CỦA WLAN )
+
+-Mã định danh nhóm dịch vụ (SSID)
+Lọc địa chỉ MAC
+Mở xác thực hệ thống
+Xác thực khóa chia sẻ
+Giao thức bảo mật tương đương có dây (WEP)
+Các sản phẩm 802.11 được vận chuyển bởi các nhà cung cấp với
+tất cả các cơ chế bảo mật bị vô hiệu hóa !!
+
+		
+		SSID-Service Set Identifiers ( Số nhận dạng nhóm dịch vụ SSID )
+-Giới hạn quyền truy cập bằng cách xác định khu vực kinh doanh
+ được bao phủ bởi các điểm truy cập
+-AP định kỳ phát SSID trong các khung báo hiệu
+-Trạm cuối lắng nghe các chương trình phát sóng này và chọn
+ một AP để liên kết dựa trên SSID của nó
+-Sử dụng SSID là một hình thức bảo mật yếu như báo hiệu
+ khung quản lý trên 802.11 WLAŃ luôn
+ gửi trong sáng
+-Một tin tặc có thể sử dụng các công cụ phân tích (ví dụ: AirMagnet,
+ Netstumbler, AiroPeek) để xác định ŠŠIDS
+-Một số nhà cung cấp sử dụng SSIDS mặc định khá
+ nổi tiếng (ví dụ: CISCO sử dụng sóng thần)
+
+
+		MAC Address Filtering ( Lọc địa chỉ MAC )
+-Quản trị viên hệ thống có thể chỉ định danh sách
+-Địa chỉ MAC có thể giao tiếp thông qua một
+điểm truy cập
++Thuận lợi
+  Cung cấp bảo mật mạnh hơn SSID
++Nhược điểm
+  Tăng chi phí quản trị
+  Giảm khả năng mở rộng
+  Tin tặc có quyết tâm vẫn có thể phá vỡ nó
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+

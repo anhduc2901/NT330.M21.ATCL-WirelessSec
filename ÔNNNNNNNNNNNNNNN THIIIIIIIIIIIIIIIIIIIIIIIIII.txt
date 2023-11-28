@@ -1,0 +1,20 @@
+TỰ LUẬN : 2 câu
+
+1. So sánh 3 phương thức wep,wpa,wpa2 (bảng so sánh)
+2. Điểm yếu của giao thức wep (weak point of wep)
+3. Trình bày các bước crack wep
+
+
+
+	Trắc no : 20 câu
+
+ip in wep :  10 or 26 hexedecimal 
+wep : stream ciphers (RC4)
+wep : 
+wpa :Wi-Fi Protected Access
+wpa's integrity : counter code ....
+phá sóng : jamming
+hardware cracking
+denial service : dos 
+gửi tin quảng bá chứa thông tin sai : black hole
+integrity .....
